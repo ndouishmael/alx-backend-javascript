@@ -1,10 +1,9 @@
-import { createIteratorObject } from "./createIteratorObject";
-
 export default function iterateThroughObject(reportWithIterator) {
-  let employeeNames = "";
+  const employees = [];
+
   for (const employee of reportWithIterator) {
-    employeeNames += employee + " | ";
+    employees.push(employee);
   }
 
-  return employeeNames.slice(0, -3);
+  return employees.join(' | ');
 }
