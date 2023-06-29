@@ -4,8 +4,8 @@
   "description": "ES6 Classes This project contains tasks for learning to use classes in ECMAScript 2015 (ES6).",
   "main": "0-classroom.js",
   "scripts": {
-  "build": "babel src -d dist",
-  "dev": "node dist/0-classroom.js"
+    "build": "babel src -d dist",
+    "dev": "node dist/0-classroom.js"
   },
   "repository": {
     "type": "git",
