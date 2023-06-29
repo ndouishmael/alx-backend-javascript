@@ -6,7 +6,6 @@
   "scripts": {
   "build": "babel src -d dist",
   "dev": "node dist/0-classroom.js"
-}
   },
   "repository": {
     "type": "git",
