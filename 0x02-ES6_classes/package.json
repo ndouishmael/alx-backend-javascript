@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ES6 Classes This project contains tasks for learning to use classes in ECMAScript 2015 (ES6).",
   "main": "0-classroom.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node 0-classroom.js"
