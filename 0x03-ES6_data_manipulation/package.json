@@ -6,7 +6,7 @@
     "test": "jest",
     "lint": "eslint .",
     "full-test": "npm run test && npm run lint",
-    "dev": "node src/dev.js"
+    "dev": "node 0-get_list_students.js"
   },
   "repository": {
     "type": "git",
