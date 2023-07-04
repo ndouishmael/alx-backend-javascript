@@ -4,11 +4,10 @@
   "description": "ES6 Data Manipulation. This project contains tasks for learning to manipulate data in ECMAScript 2015 (ES6).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
-    "test": "jest",
     "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
   },
   "keywords": [],
